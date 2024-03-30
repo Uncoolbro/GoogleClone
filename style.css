@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Jim+Nightshade&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+header{
+  padding: 20px;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.floppa{
+  height: 50px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 50px;
+}
+
+header a{
+  color: black;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+header .rightnav{
+ display: flex;
+ align-items: center;
+ gap: 30px;
+}
+
+header .leftnav{
+  display: flex;
+  gap: 30px;
+}
+
+
+.Logo{
+  font-family: sans-serif;
+  font-size: 75px;
+}
+
+.Logo{
+  margin-top: 20px;
+  height: 100px;
+  display: flex;
+  margin-left: 450px;
+}
+
+.searchbar{
+  margin-top: 20px;
+  height: 40px;
+  border: 1px solid grey;
+  border-radius: 25px;
+  width: 800px;
+  margin-left: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchbar .leftsearchbar{
+  padding-left: 20px;
+}
+
+.searchbar .rightsearchbar{
+  padding-right: 20px;
+  gap: 15px;
+  display: flex;
+}
+
+.buttons{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 20px;
+}
+
+.button1{
+  border-style: none;
+  border-radius:5px;
+  height: 40px;
+  width: 100px;
+  background-color: rgb(247, 246, 246);
+}
+
+.button2{
+  border-style: none;
+  border-radius:5px;
+  height: 40px;
+  width: 100px;
+  background-color: rgb(247, 246, 246);
+}
+
+.hero p{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.hero p a{
+  text-decoration: none;
+  padding-left: 5px;
+}
+
+header a:hover{
+  text-decoration: underline;
+}
+
+.floppa:hover{
+  height: 55px;
+  border: 2px solid rgb(247, 247, 247);
+  border-radius: 50px;
+}
+
+.searchbar:hover{
+  border: inset 2px;
+  box-shadow: inset 2px black;
+  cursor:text;
+}
+
+.hero p a:hover{
+  text-decoration: underline;
+}
+
+.button1:hover{
+  border-radius: 0px;
+  cursor: grab;
+  border-bottom: inset 1px;
+}
+
+.button2:hover{
+  border-radius: 0px;
+  cursor: grab;
+  border-bottom: inset 1px;
+}
